@@ -6,17 +6,14 @@ import (
 )
 
 type StudentData struct {
-	ID             sql.NullInt64  `json:"id" db:"id"`
-	StudentAddress sql.NullString `json:"studentID" db:"student_address"`
-	Name           sql.NullString `json:"name" db:"name"`
-	StudentNumber  sql.NullString `json:"studentNumber" db:"student_number" `
-	Major          sql.NullString `json:"major" db:"major"`
-	InsertDate     sql.NullTime   `json:"insertDate" db:"insert_date"`
+	TaskID   sql.NullString `json:"taskId" db:"task_id"`
+	TaskName sql.NullString `json:"taskName" db:"task_name"`
+	TaskDesc sql.NullString `json:"taskDesc" db:"task_description"`
 }
 
-func (tkbaiDbImpl *AppDbImplement) CreateStudentData(data StudentData) (err error) {
-	query := "INSERT INTO tkbai_data (student_address, name, student_number, major) VALUES (?,?,?,?)"
-	_, err = tkbaiDbImpl.ConnectTkbaiDB.Exec(query, data.StudentAddress, data.Name, data.StudentNumber, data.Major)
+func (tkbaiDbImpl *AppDbImplement) CreateTask(data StudentData) (err error) {
+	query := "INSERT INTO todos.task (task_name,task_description) VALUES (?,?)"
+	_, err = tkbaiDbImpl.ConnectTkbaiDB.Exec(query, data.TaskName, data.TaskDesc)
 	if err != nil {
 		config.LogErr(err, "Query Error")
 		return err

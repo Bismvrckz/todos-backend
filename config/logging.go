@@ -98,7 +98,7 @@ func logWithConfig() *Logger {
 		EncodeLogsAsJson:      true,
 		FileLoggingEnabled:    true,
 		Directory:             "log",
-		Filename:              "tkbai.log",
+		Filename:              "application.log",
 		MaxSize:               2,
 	}
 	return Configure(configLog)

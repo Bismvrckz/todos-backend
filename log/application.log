@@ -1,0 +1,20 @@
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:18:04+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:18:04+07:00","message":"Env"}
+{"level":"error","BASE_URL":"/tkbai","time":"2025-01-11T00:18:04+07:00","message":"Fallback"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:18:04+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:18:04+07:00","message":"Env"}
+{"level":"error","URI":"/task/create","METHOD":"POST","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","error":"code=404, message=Not Found","time":"2025-01-11T00:18:28+07:00"}
+{"level":"error","URI":"/pweb/task/create","METHOD":"POST","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","error":"code=404, message=Not Found","time":"2025-01-11T00:18:59+07:00"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:19:08+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:19:08+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:19:08+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:19:08+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:19:08+07:00","message":"Env"}
+{"level":"error","URI":"/pweb/task/create","METHOD":"POST","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","error":"code=404, message=Not Found","time":"2025-01-11T00:19:13+07:00"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:19:31+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:19:31+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:19:31+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:19:31+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:19:31+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task/create","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:19:33+07:00","message":"Request"}
+{"level":"info","URI":"/pweb/task/create","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:20:30+07:00","message":"Request"}
