@@ -16,9 +16,9 @@ import (
 func main() {
 	a := new(config.Apps)
 
-	a.Tkbai = echo.New()
+	a.AppInst = echo.New()
 
-	a.Tkbai.Use(middleware.RecoverWithConfig(middleware.RecoverConfig{
+	a.AppInst.Use(middleware.RecoverWithConfig(middleware.RecoverConfig{
 		StackSize: 1 << 10, // 1 KB
 		LogErrorFunc: func(ctx echo.Context, err error, stack []byte) error {
 			fmt.Println(string(stack))
@@ -27,7 +27,10 @@ func main() {
 		},
 	}))
 
-	//'nonce-" + config.StyleSrcNonce + "' 'self' fonts.googleapis.com fonts.gstatic.com
+	a.AppInst.Use(middleware.CORSWithConfig(middleware.CORSConfig{
+		AllowOrigins: []string{"http://localhost:9001"},
+		AllowMethods: []string{echo.GET, echo.HEAD, echo.PATCH, echo.PUT, echo.POST, echo.DELETE},
+	}))
 
 	//logging
 	initLoggingMiddleware(a)
@@ -44,13 +47,13 @@ func main() {
 		log.Fatal(err)
 	}
 
-	a.Tkbai.Logger.Fatal(a.Tkbai.Start(config.SERVERPort))
+	a.AppInst.Logger.Fatal(a.AppInst.Start(config.SERVERPort))
 }
 
 func initLoggingMiddleware(ein *config.Apps) {
 	logger := config.Log
 
-	ein.Tkbai.Use(middleware.RequestLoggerWithConfig(middleware.RequestLoggerConfig{
+	ein.AppInst.Use(middleware.RequestLoggerWithConfig(middleware.RequestLoggerConfig{
 		LogURI:       true,
 		LogURIPath:   true,
 		LogStatus:    true,

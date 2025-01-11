@@ -7,7 +7,7 @@ import (
 )
 
 func InitErrHandler(ein *config.Apps) {
-	ein.Tkbai.HTTPErrorHandler = func(err error, ctx echo.Context) {
+	ein.AppInst.HTTPErrorHandler = func(err error, ctx echo.Context) {
 		config.Log.Debug().Msg(err.Error())
 
 		ctx.JSON(http.StatusInternalServerError, map[string]string{
