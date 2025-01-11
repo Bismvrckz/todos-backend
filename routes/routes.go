@@ -6,7 +6,6 @@ import (
 )
 
 func BuildRoutes(ein *config.Apps) {
-	// Admin
 	apiHandler := ein.Tkbai.Group(config.AppPrefix, handler.AppMiddleware)
 
 	apiHandler.POST("/task", handler.CreateTask)

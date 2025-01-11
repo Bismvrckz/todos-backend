@@ -10,6 +10,9 @@ func InitErrHandler(ein *config.Apps) {
 	ein.Tkbai.HTTPErrorHandler = func(err error, ctx echo.Context) {
 		config.Log.Debug().Msg(err.Error())
 
-		ctx.JSON(http.StatusInternalServerError, err.Error())
+		ctx.JSON(http.StatusInternalServerError, map[string]string{
+			"status":  "success",
+			"message": err.Error(),
+		})
 	}
 }

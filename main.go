@@ -9,6 +9,7 @@ import (
 	"strings"
 	"task-api/config"
 	"task-api/databases"
+	"task-api/handler"
 	"task-api/routes"
 )
 
@@ -32,7 +33,7 @@ func main() {
 	initLoggingMiddleware(a)
 
 	//init handler
-	//handler.InitErrHandler(a)
+	handler.InitErrHandler(a)
 
 	//add routes
 	routes.BuildRoutes(a)

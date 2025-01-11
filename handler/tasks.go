@@ -24,6 +24,10 @@ func CreateTask(ctx echo.Context) (err error) {
 			String: payload.TaskDesc,
 			Valid:  true,
 		},
+		TaskStatus: sql.NullString{
+			String: payload.TaskStatus,
+			Valid:  true,
+		},
 	})
 
 	if err != nil {
@@ -44,9 +48,10 @@ func GetAllTask(ctx echo.Context) (err error) {
 	var tasks []models.TaskJson
 	for _, each := range result {
 		tasks = append(tasks, models.TaskJson{
-			TaskID:   each.TaskID.Int64,
-			TaskName: each.TaskName.String,
-			TaskDesc: each.TaskDesc.String,
+			TaskID:     each.TaskID.Int64,
+			TaskName:   each.TaskName.String,
+			TaskDesc:   each.TaskDesc.String,
+			TaskStatus: each.TaskStatus.String,
 		})
 	}
 
@@ -69,21 +74,25 @@ func UpdateTask(ctx echo.Context) (err error) {
 			String: payload.TaskDesc,
 			Valid:  true,
 		},
+		TaskStatus: sql.NullString{
+			String: payload.TaskStatus,
+			Valid:  true,
+		},
 		TaskID: sql.NullInt64{
 			Int64: payload.TaskID,
 			Valid: true,
 		},
 	})
 
+	if err != nil {
+		return err
+	}
+
 	if rowsAffected == 0 {
 		return ctx.JSON(http.StatusNotFound, map[string]string{
 			"status":  "failed",
 			"message": "task not found",
 		})
-	}
-
-	if err != nil {
-		return err
 	}
 
 	return ctx.JSON(http.StatusOK, map[string]string{
@@ -100,15 +109,15 @@ func DeleteTask(ctx echo.Context) (err error) {
 
 	rowsAffected, err := databases.DbInterface.DeleteTask(payload.TaskID)
 
+	if err != nil {
+		return err
+	}
+
 	if rowsAffected == 0 {
 		return ctx.JSON(http.StatusNotFound, map[string]string{
 			"status":  "failed",
 			"message": "task not found",
 		})
-	}
-
-	if err != nil {
-		return err
 	}
 
 	return ctx.JSON(http.StatusOK, map[string]string{
