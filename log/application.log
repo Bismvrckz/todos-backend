@@ -18,3 +18,152 @@
 {"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:19:31+07:00","message":"Env"}
 {"level":"info","URI":"/pweb/task/create","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:19:33+07:00","message":"Request"}
 {"level":"info","URI":"/pweb/task/create","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:20:30+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:34:28+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:34:28+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:34:28+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:34:28+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:34:28+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:34:31+07:00","message":"Request"}
+{"level":"info","URI":"/pweb/task","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:34:38+07:00","message":"Request"}
+{"level":"info","URI":"/pweb/task","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:34:41+07:00","message":"Request"}
+{"level":"info","URI":"/pweb/task","METHOD":"POST","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:34:46+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:35:43+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:35:43+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:35:43+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:35:43+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:35:43+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:38:14+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:38:14+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:38:14+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:38:14+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:38:14+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"GET","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:38:16+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:38:56+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:38:56+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:38:56+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:38:56+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:38:56+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:39:32+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:39:32+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:39:32+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:39:32+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:39:32+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:40:40+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:40:40+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:40:40+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:40:40+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:40:40+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:40:44+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:40:44+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:40:44+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:40:44+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:40:44+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"GET","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:40:47+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:41:09+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:41:09+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:41:09+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:41:09+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:41:09+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"GET","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:41:12+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:41:54+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:41:54+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:41:54+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:41:54+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:41:54+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:42:09+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:42:09+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:42:09+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:42:09+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:42:09+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:42:24+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:42:24+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:42:24+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:42:24+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:42:24+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:42:27+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:42:27+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:42:27+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:42:27+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:42:27+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:42:33+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:42:33+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:42:33+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:42:33+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:42:33+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:42:41+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:42:41+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:42:41+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:42:41+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:42:41+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T00:43:01+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T00:43:01+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T00:43:01+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T00:43:01+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T00:43:01+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"GET","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T00:43:04+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:52:18+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:52:18+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:52:18+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:52:18+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:52:18+07:00","message":"Env"}
+{"level":"error","error":"dial tcp 127.0.0.1:3307: connect: connection refused","time":"2025-01-11T08:52:18+07:00","message":"Error connecting to database"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:52:30+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:52:30+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:52:30+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:52:30+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:52:30+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"PUT","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T08:52:33+07:00","message":"Request"}
+{"level":"error","URI":"/pweb/task","METHOD":"PUT","STATUS":400,"IP":"::1","HOST":"localhost:9001","RequestID":"","error":"code=400, message=Unmarshal type error: expected=int64, got=string, field=TaskID, offset=19, internal=json: cannot unmarshal string into Go struct field TaskJson.TaskID of type int64","time":"2025-01-11T08:52:46+07:00"}
+{"level":"info","URI":"/pweb/task","METHOD":"PUT","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T08:52:52+07:00","message":"Request"}
+{"level":"info","URI":"/pweb/task","METHOD":"PUT","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T08:52:58+07:00","message":"Request"}
+{"level":"info","URI":"/pweb/task","METHOD":"PUT","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T08:53:24+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:53:43+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:53:43+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:53:43+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:53:43+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:53:43+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"PUT","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T08:53:45+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:54:07+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:54:07+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:54:07+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:54:07+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:54:07+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:54:15+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:54:15+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:54:15+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:54:15+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:54:15+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:54:17+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:54:17+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:54:17+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:54:17+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:54:17+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:54:37+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:54:37+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:54:37+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:54:37+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:54:37+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:57:49+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:57:49+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:57:49+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:57:49+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:57:49+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:58:06+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:58:06+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:58:06+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:58:06+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:58:06+07:00","message":"Env"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T08:58:56+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T08:58:56+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T08:58:56+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T08:58:56+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T08:58:56+07:00","message":"Env"}
+{"level":"error","URI":"/pweb/task","METHOD":"DELETE","STATUS":400,"IP":"::1","HOST":"localhost:9001","RequestID":"","error":"code=400, message=Syntax error: offset=20, error=invalid character '}' looking for beginning of object key string, internal=invalid character '}' looking for beginning of object key string","time":"2025-01-11T08:59:24+07:00"}
+{"level":"error","error":"Error 1048 (23000): Column 'task_name' cannot be null","time":"2025-01-11T08:59:30+07:00","message":"Query Error"}
+{"level":"info","URI":"/pweb/task","METHOD":"DELETE","STATUS":404,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T08:59:30+07:00","message":"Request"}
+{"level":"info","fileLogging":true,"jsonLogOutput":true,"logDirectory":"log","fileName":"application.log","maxSizeMB":2,"maxBackups":0,"maxAgeInDays":0,"time":"2025-01-11T09:00:04+07:00","message":"logging configured"}
+{"level":"debug","SERVER_PORT":":9001","time":"2025-01-11T09:00:04+07:00","message":"Env"}
+{"level":"debug","BASE_URL":"/pweb","time":"2025-01-11T09:00:04+07:00","message":"Env"}
+{"level":"error","SV_JWT_KEY":"LmPZJbddZ9uXW4JE7g6N9R8ZdmDRv5vYihZJRBcOz7U=","time":"2025-01-11T09:00:04+07:00","message":"Fallback"}
+{"level":"debug","DB_URL":"tkbai:03IZmt7eRMukIHdoZahl@tcp(127.0.0.1:3307)/todos?parseTime=true","time":"2025-01-11T09:00:04+07:00","message":"Env"}
+{"level":"info","URI":"/pweb/task","METHOD":"DELETE","STATUS":200,"IP":"::1","HOST":"localhost:9001","RequestID":"","time":"2025-01-11T09:00:07+07:00","message":"Request"}
